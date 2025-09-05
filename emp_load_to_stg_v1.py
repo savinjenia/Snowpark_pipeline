@@ -5,14 +5,9 @@
 #Collect rejects,
 #https://www.udemy.com/course/snowpark-data-engineering-with-snowflake/learn/lecture/36039468#overview
 
-import sys
-# Ignore the below command, if you are executing this code from Github codespaces
-#sys.path.append('/Users/pradeep/Downloads/Udemy_course_videos/course_2_assignments/Snowpark_pipeline/')
-
 # Import generic code library.
 from generic_code import code_library
 from schema import src_stg_schema
-from snowflake.snowpark.context import get_active_session
 import json
 
 ### Read from config file.
