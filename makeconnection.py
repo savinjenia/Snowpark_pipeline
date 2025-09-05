@@ -4,7 +4,7 @@ from generic_code import code_library
 # Please mention your snowflake account credentials below,
 connection_parameters = {"account":"EFPKHYG-KT18285",
                          "user":"ISAVIN",
-                         "password": "8ZRu7mhptF2Q37D$",
+                         "password": "8ZRu7mhptF2Q37D",
                          "role":"ACCOUNTADMIN",
                          "warehouse":"COMPUTE_WH",
                          "database":"DEMO_DB",
